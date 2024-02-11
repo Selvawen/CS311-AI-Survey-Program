@@ -36,7 +36,7 @@ UserResponse gatherUserResponse(const std::vector<SurveyQuestion>& questions) {
     }
 
     std::cout << "Enter your political party affiliation: ";
-    std::cin > > response.politicalParty;
+    std::cin >> response.politicalParty;
 
     return response;
 }
@@ -102,4 +102,4 @@ int main() {
     return 0;
 }
 
-/*This will be first cpp commit*/
+/*This will be first cpp commit I*/
